@@ -57,7 +57,7 @@ jobs:
         with:
           fetch-depth: 0 # Full history is needed for better analysis
       - name: "Download unit test coverage report"
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v7
         with:
           name: unit-test-results
           path: test-artefacts/
